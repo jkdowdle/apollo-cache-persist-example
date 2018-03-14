@@ -1,0 +1,8 @@
+query Data {
+  me {
+    name
+    bestFriend {
+      name
+    }
+  }
+}

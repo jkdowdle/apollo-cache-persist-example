@@ -1,0 +1,39 @@
+{
+  "name": "apollo-offline",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.10",
+    "apollo-cache-persist": "^0.1.1",
+    "apollo-client": "^2.2.6",
+    "apollo-link": "^1.2.1",
+    "apollo-link-http": "^1.5.3",
+    "apollo-link-retry": "^2.2.2",
+    "graphql": "^0.13.1",
+    "graphql-tag": "^2.8.0",
+    "localforage": "^1.6.0",
+    "react": "^16.3.0-alpha.1",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.3.0-alpha.1",
+    "react-scripts": "^2.0.0-next.47d2d941"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}
